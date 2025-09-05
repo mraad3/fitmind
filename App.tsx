@@ -218,7 +218,7 @@ const pantry = {
 
 function buildMeal(title: string, kcal: number, p: number, c: number, f: number): Meal {
   const prot = pick(pantry.proteins, 1)[0];
-  the carb = pick(pantry.carbs, 1)[0];
+  const carb = pick(pantry.carbs, 1)[0];
   const fat = pick(pantry.fats, 1)[0];
   const vegs = pick(pantry.veggies, 2);
   return {
